@@ -1,0 +1,20 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "https://www.freecodecamp.org/challenges/timestamp-microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yavuzovski/timestamp-microservice.git"
+  },
+  "author": "yavuzovski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yavuzovski/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/yavuzovski/timestamp-microservice#readme"
+}
