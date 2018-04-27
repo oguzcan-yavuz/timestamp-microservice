@@ -19,6 +19,7 @@
   "homepage": "https://github.com/yavuzovski/timestamp-microservice#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "moment": "^2.22.1"
+    "moment": "^2.22.1",
+    "pug": "^2.0.3"
   }
 }
