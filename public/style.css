@@ -9,7 +9,7 @@ ol.stories {
 
 ul.examples {
     list-style-position: inside;
-    list-style-type: square;
+    list-style-type: none;
 }
 
 footer {
