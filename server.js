@@ -1,13 +1,14 @@
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const routes = require('./app/routes/routes.js');
-const port = 8427;      // TODO: burayi duzgun bi cfg dosyasindan al veya env muhabbetini incele
+const PORT = process.env.PORT || 8427;
 var app = express();
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use("/static", express.static(path.join(__dirname, 'public')));
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 app.use(routes);
-app.listen(port, () => {
-    console.log("Server is listening on port " + port);
+app.listen(PORT, () => {
+    console.log("Server is listening on port " + PORT);
 });

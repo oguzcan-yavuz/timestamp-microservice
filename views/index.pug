@@ -1,15 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <h4>Timestamp Microservice</h4>
-    <div class="container">
-        <ul>Example Usages: </ul>
-        <ul></ul>
-        <ul></ul>
-    </div>
-</body>
-</html>
+doctype html
+html(lang=en)
+    head
+        title Timestamp Microservice
+        link(rel="stylesheet", type="text/css", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
+        link(rel="stylesheet", type="text/css", href="/static/style.css")
+    body
+        div(class="container title")
+            h2 Timestamp Microservice
+        div(class="container")
+            p 
+                | First API Project on 
+                a(href="https://www.freecodecamp.org/challenges/timestamp-microservice", target="_blank") freecodecamp 
+                | backend development course by 
+                a(href="https://www.freecodecamp.org/yavuzovski", target="_blank") yavuzovski
+            ol(class="stories") User stories:    
+                li.
+                    I can pass a string as a parameter, and it will check to see whether
+                    that string contains either a unix timestamp or a natural language date (example: January 1, 2016).
+                li.
+                    If it does, it returns both the Unix timestamp and the natural language form of that date.
+                li.
+                    If it does not contain a date or Unix timestamp, it returns null for those properties.
+        div(class="container")
+            ul(class="examples") Examples:
+                li some exapmle
+                li some example output
+                li some exapmle
+                li some example output
+        div(class="container")
+            footer
+                h2 AROUND THE WEB
+                a.button(href='https://github.com/yavuzovski', target='_blank')
+                  img(src='http://sciactive.com/pnotify/includes/github-icon.png')
+                a.button(href='https://www.linkedin.com/in/oguzcanyavuz', target='_blank')
+                  img(src='http://www.plasticsuk.com/images/in-icon.png')
+                a.button(href='https://www.freecodecamp.com/yavuzovski', target='_blank')
+                  img(src='https://cdn-images-2.medium.com/fit/c/32/32/1*MotlWcSa2n6FrOx3ul89kw.png')

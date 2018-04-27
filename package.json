@@ -18,8 +18,19 @@
   },
   "homepage": "https://github.com/yavuzovski/timestamp-microservice#readme",
   "dependencies": {
+    "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "moment": "^2.22.1",
     "pug": "^2.0.3"
-  }
+  },
+  "engines": {
+    "node": "9.11.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "freecodecamp",
+    "tutorial",
+    "timestamp",
+    "microservice"
+  ]
 }
