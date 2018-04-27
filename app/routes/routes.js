@@ -26,22 +26,7 @@ function dateMatcher(date) {
 }
 
 router.get("/", (req, res) => {
-    let fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
-    let unixExample = 1524787200;
-    let naturalExample = encodeURI("27 April, 2018");
-    res.render('index', {
-        url: fullUrl,
-        examples: {
-            unix: {
-                input: unixExample,
-                output: JSON.stringify(dateMatcher(unixExample))
-            },
-            natural: {
-                input: naturalExample,
-                output: JSON.stringify(dateMatcher(naturalExample))
-            }
-        }
-    });
+    res.render('index');
 })
 
 router.get("/:date", (req, res) => {

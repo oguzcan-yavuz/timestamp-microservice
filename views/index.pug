@@ -23,11 +23,11 @@ html(lang=en)
                     If it does not contain a date or Unix timestamp, it returns null for those properties.
         div(class="container")
             ul(class="examples") Examples:
-                li #{url}#{examples.unix.input}
-                li #{examples.unix.output}
+                li http://localhost:8427/27 April 2018
+                li {"unix":1524787200,"natural":"27 April 2018"}
                 br
-                li #{url}#{examples.natural.input}
-                li #{examples.natural.output}
+                li http://localhost:8427/1524787200
+                li {"unix":1524787200,"natural":"April 27, 2018"}
         div(class="container")
             footer
                 h2 AROUND THE WEB
