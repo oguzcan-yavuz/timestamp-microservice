@@ -26,7 +26,8 @@ function dateMatcher(date) {
 }
 
 router.get("/", (req, res) => {
-    res.render('index');
+    let fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+    res.render('index', {url: fullUrl});
 })
 
 router.get("/:date", (req, res) => {
